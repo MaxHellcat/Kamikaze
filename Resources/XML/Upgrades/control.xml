@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<upgrades>
+	<!-- eControlBasic -->
+	<control
+	name		= "Basic"
+	description = "The basic control"
+	points		= "100"
+	money		= "10"
+	icon		= "control_basic.png"
+	modelMesh	= ""
+	texDiffuse	= ""
+	texNormal	= ""
+	/>
+
+	<!-- eControlAmateur -->
+	<control
+	name		= "Amateur"
+	description = "An Amateur control"
+	points		= "200"
+	money		= "20"
+	icon		= "control_amateur.png"
+	modelMesh	= ""
+	texDiffuse	= ""
+	texNormal	= ""
+	/>
+
+	<!-- eControlAdvanced -->
+	<control
+	name		= "Advanced"
+	description = "An Advanced control"
+	points		= "300"
+	money		= "30"
+	icon		= "control_amateur.png"
+	modelMesh	= ""
+	texDiffuse	= ""
+	texNormal	= ""
+	/>
+
+	<!-- eControlPro -->
+	<control
+	name		= "Pro"
+	description = "The Pro control"
+	points		= "400"
+	money		= "40"
+	icon		= "control_amateur.png"
+	modelMesh	= ""
+	texDiffuse	= ""
+	texNormal	= ""
+	/>
+
+	<!-- eControlAce -->
+	<control
+	name		= "Ace"
+	description = "The TopGun control"
+	points		= "500"
+	money		= "50"
+	icon		= "control_amateur.png"
+	modelMesh	= ""
+	texDiffuse	= ""
+	texNormal	= ""
+	/>
+
+</upgrades>

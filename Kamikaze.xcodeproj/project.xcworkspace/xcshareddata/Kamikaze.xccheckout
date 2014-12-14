@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>96F68459-A815-4CCA-86D1-182099BEAB94</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kamikaze</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8cde0113-8b11-49b4-a882-bda51da1d547++907</key>
+		<string>https://svn.moscow.ximxim.com:445/svn/MAD/Birds/Dev/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Kamikaze.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8cde0113-8b11-49b4-a882-bda51da1d547++907</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>8cde0113-8b11-49b4-a882-bda51da1d547++907</key>
+		<string>https://svn.moscow.ximxim.com:445/svn/MAD/Birds</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://svn.moscow.ximxim.com:445/svn/MAD/Birds/Dev/trunk/Kamikaze.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8cde0113-8b11-49b4-a882-bda51da1d547++907</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8cde0113-8b11-49b4-a882-bda51da1d547++907</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Kamikaze_Trunk</string>
+		</dict>
+	</array>
+</dict>
+</plist>

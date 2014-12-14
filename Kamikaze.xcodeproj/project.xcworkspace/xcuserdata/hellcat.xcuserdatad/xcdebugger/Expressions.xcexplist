@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesStackState
+   version = "1.0">
+   <StackStates>
+      <StackState
+         stackFrameDescription = "GLOBAL">
+         <expressions>
+            <expression
+               value = "this">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "Shader::Shader():Shader.cpp">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "BodyBox2d::createRectangle(char const*, char const*, eBodyType, float, float, float, float, float):Body.cpp">
+         <expressions>
+            <expression
+               value = "this">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "_GameStateController::_GameStateController():GameStateController.mm">
+         <expressions>
+            <expression
+               value = "MatrixManager::get()">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "Model::preloadScene(char const*):VBO.cpp">
+         <expressions>
+            <expression
+               value = "_map">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "Model::Model(char const*, char const*):VBO.cpp">
+         <expressions>
+         </expressions>
+      </StackState>
+   </StackStates>
+</VariablesStackState>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<upgrades>
+	<!-- eEngine100HP -->
+	<engine
+	name		= "Engine100hp"
+	description = "A basic engine. 100hp lalalalallslslsllklksldkfjdkfjdkjfpw,fxpewjfifjmerojerjkdjsdjg;dfgdkfgjdlfgldjhgkjdghkdf"
+	points		= "100"
+	money		= "10"
+	icon		= "engine_100.png"
+	modelMesh	= ""
+	texDiffuse	= ""
+	texNormal	= ""
+	/>
+
+	<!-- eEngine150HP -->
+	<engine
+	name		= "Engine150hp"
+	description = "A 150hp engine"
+	points		= "200"
+	money		= "20"
+	icon		= "engine_150.png"
+	modelMesh	= ""
+	texDiffuse	= ""
+	texNormal	= ""
+	/>
+
+	<!-- eEngine200HP -->
+	<engine
+	name		= "Engine200hp"
+	description = "A 200hp engine"
+	points		= "300"
+	money		= "30"
+	icon		= "engine_150.png"
+	modelMesh	= ""
+	texDiffuse	= ""
+	texNormal	= ""
+	/>
+
+	<!-- eEngine250HP -->
+	<engine
+	name		= "Engine250hp"
+	description = "A 250hp engine"
+	points		= "400"
+	money		= "40"
+	icon		= "engine_150.png"
+	modelMesh	= ""
+	texDiffuse	= ""
+	texNormal	= ""
+	/>
+
+	<!-- eEngine300HP -->
+	<engine
+	name		= "Engine300hp"
+	description = "A 300hp engine"
+	points		= "500"
+	money		= "50"
+	icon		= "engine_150.png"
+	modelMesh	= ""
+	texDiffuse	= ""
+	texNormal	= ""
+	/>
+
+	<!-- eEngine400HP -->
+	<engine
+	name		= "Engine400hp"
+	description = "The engine with 400hp power"
+	points		= "600"
+	money		= "60"
+	icon		= "engine_150.png"
+	modelMesh	= ""
+	texDiffuse	= ""
+	texNormal	= ""
+	/>
+
+	<!-- eEngine500HP -->
+	<engine
+	name		= "Engine500hp"
+	description = "The engine with 500hp power"
+	points		= "700"
+	money		= "70"
+	icon		= "engine_150.png"
+	modelMesh	= ""
+	texDiffuse	= ""
+	texNormal	= ""
+	/>
+
+</upgrades>

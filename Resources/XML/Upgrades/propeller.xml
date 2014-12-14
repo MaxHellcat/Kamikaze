@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<upgrades>
+
+	<!-- ePropellerWooden -->
+	<propeller
+	name		= "Wooden propeller"
+	description = "A basic wooden propeller"
+	points		= "100"
+	money		= "10"
+	icon		= "propeller_wood.png"
+	modelMesh	= "propeller_wood"
+	texDiffuse	= "airplane_wood"
+	texNormal	= "airplane_wood_normal"
+	/>
+
+	<!-- ePropellerPlastic -->
+	<propeller
+	name		= "Plastic propeller"
+	description = "A plastic propeller. Very nice!"
+	points		= "200"
+	money		= "20"
+	icon		= "propeller_steel.png"
+	modelMesh	= "propeller_plastic"
+	texDiffuse	= "airplane_plastic"
+	texNormal	= "airplane_plastic_normal"
+	/>
+	
+	<!-- ePropellerSteel -->
+	<propeller
+	name		= "Steel propeller"
+	description = "A very nice steel propeller"
+	points		= "300"
+	money		= "30"
+	icon		= "propeller_steel.png"
+	modelMesh	= "propeller_steel"
+	texDiffuse	= "airplane_steel"
+	texNormal	= "airplane_steel_normal"
+	/>
+
+	<!-- ePropellerCarbon -->
+	<propeller
+	name		= "Carbon propeller"
+	description = "A very nice carbon propeller"
+	points		= "400"
+	money		= "40"
+	icon		= "propeller_steel.png"
+	modelMesh	= "propeller_steel"
+	texDiffuse	= "airplane_steel"
+	texNormal	= "airplane_steel_normal"
+	/>
+
+	<!-- ePropellerTitan -->
+	<propeller
+	name		= "Titan propeller"
+	description = "A very nice titan propeller"
+	points		= "500"
+	money		= "50"
+	icon		= "propeller_steel.png"
+	modelMesh	= "propeller_steel"
+	texDiffuse	= "airplane_steel"
+	texNormal	= "airplane_steel_normal"
+	/>
+</upgrades>

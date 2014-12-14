@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<upgrades>
+    <upgrade 
+        name    = "Gun, not propeller ^__^" 
+        text    = "Useful to demolite."
+        score   = "200" 
+        cent    = "30" 
+        type    = "propeller" 
+        texture = "tomato_diffuse.pvr" 
+        normals = "tomato_normals.pvr"
+        icon    = "unknown.png"
+        model   = "tomato_gun"
+    />
+    <upgrade 
+        name    = "tachion cannon" 
+        text    = " -- Booom! -- I will shot you... oh, I was shot you."
+        score   = "2000" 
+        cent    = "300" 
+        type    = "front weapon" 
+        texture = "Smoke.pvr" 
+        normals = "Smoke.pvr"
+        icon    = "unknown.png"
+        model   = "tomato_gun"
+    />
+    <upgrade 
+        name    = "Nice cap, capitan!" 
+        text    = "Protect better, than helm."
+        score   = "2000" 
+        cent    = "300" 
+        type    = "wing" 
+        texture = "garage_support_color.pvr" 
+        normals = "garage_support_nm.pvr"
+        icon    = "unknown.png"
+        model   = "garage_support"
+    />
+</upgrades>

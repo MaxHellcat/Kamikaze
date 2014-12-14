@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<upgrades>
+
+	<!-- eBodyWooden -->
+	<body
+	name		= "Wooden Body"
+	description = "The basic wooden airplane body"
+	points		= "100"
+	money		= "10"
+	icon		= "wings_wood.png"
+	modelMesh	= "body_wood"
+	texDiffuse	= "airplane_wood"
+	texNormal	= "airplane_wood_normal"
+	/>
+
+	<!-- eBodyPlastic -->
+	<body
+	name		= "Plastic Body"
+	description = "The plastic airplane body"
+	points		= "200"
+	money		= "20"
+	icon		= "wings_steel.png"
+	modelMesh	= "body_plastic"
+	texDiffuse	= "airplane_plastic"
+	texNormal	= "airplane_plastic_normal"
+	/>
+
+	<!-- eBodySteel -->
+	<body
+	name		= "Steel Body"
+	description = "The steel airplane body"
+	points		= "300"
+	money		= "30"
+	icon		= "wings_steel.png"
+	modelMesh	= "body_steel"
+	texDiffuse	= "airplane_steel"
+	texNormal	= "airplane_steel_normal"
+	/>
+
+	<!-- eBodyCarbon -->
+	<body
+	name		= "Carbon Body"
+	description = "The carbon airplane body"
+	points		= "400"
+	money		= "40"
+	icon		= "wings_steel.png"
+	modelMesh	= "body_steel"
+	texDiffuse	= "airplane_steel"
+	texNormal	= "airplane_steel_normal"
+	/>
+
+	<!-- eBodyTitan -->
+	<body
+	name		= "Titan Body"
+	description = "The titan airplane body"
+	points		= "500"
+	money		= "50"
+	icon		= "wings_steel.png"
+	modelMesh	= "body_steel"
+	texDiffuse	= "airplane_steel"
+	texNormal	= "airplane_steel_normal"
+	/>
+
+</upgrades>

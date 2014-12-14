@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<upgrades>
+
+	<!-- eWingsWooden -->
+	<wings
+	name		= "Wooden Wings"
+	description = "A set of basic wooden airplane wings"
+	points		= "100"
+	money		= "10"
+	icon		= "wings_wood.png"
+	modelMesh	= "wings_wood"
+	modelMeshTail	= "tail_wood"
+	texDiffuse	= "airplane_wood"
+	texNormal	= "airplane_wood_normal"
+	/>
+
+	<!-- eWingsPlastic -->
+	<wings
+	name		= "Plastic Wings"
+	description = "Plastic beatles should not you fear now, young padawan."
+	points		= "200"
+	money		= "20"
+	icon		= "wings_steel.png"
+	modelMesh	= "wings_plastic"
+	modelMeshTail	= "tail_plastic"
+	texDiffuse	= "airplane_plastic"
+	texNormal	= "airplane_plastic_normal"
+	/>
+
+	<!-- eWingsSteel -->
+	<wings
+	name		= "Steel Wings"
+	description = "Steel Wings"
+	points		= "300"
+	money		= "30"
+	icon		= "wings_steel.png"
+	modelMesh	= "wings_steel"
+	modelMeshTail	= "tail_steel"
+	texDiffuse	= "airplane_steel"
+	texNormal	= "airplane_steel_normal"
+	/>
+
+	<!-- eWingsCarbon -->
+	<wings
+	name		= "Carbon Wings"
+	description = "Carbon Wings"
+	points		= "400"
+	money		= "40"
+	icon		= "wings_steel.png"
+	modelMesh	= "wings_steel"
+	modelMeshTail	= "tail_steel"
+	texDiffuse	= "airplane_steel"
+	texNormal	= "airplane_steel_normal"
+	/>
+
+	<!-- eWingsTitan -->
+	<wings
+	name		= "Titan Wings"
+	description = "Titan Wings"
+	points		= "500"
+	money		= "50"
+	icon		= "wings_steel.png"
+	modelMesh	= "wings_steel"
+	modelMeshTail	= "tail_steel"
+	texDiffuse	= "airplane_steel"
+	texNormal	= "airplane_steel_normal"
+	/>
+</upgrades>

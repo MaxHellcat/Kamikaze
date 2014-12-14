@@ -1,0 +1,37 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red100\green56\blue32;\red196\green26\blue22;\red0\green116\blue0;
+}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 This is purely Tool folder from SDKPackage_OGLES2 packages, which can be downloaded from {\field{\*\fldinst{HYPERLINK "http://www.imgtec.com/powervr/insider/sdk/KhronosOpenGLES2xSGX.asp"}}{\fldrslt http://www.imgtec.com/powervr/insider/sdk/KhronosOpenGLES2xSGX.asp}}\
+\
+Removed to conform with the app code:\
+1) ./OGLES2/Build\
+2) ./OGLES2/makeshaders.mak\
+\
+2. Into OGLES2/PVRTgles2Ext.h added:\
+\pard\tx560\pardeftab560\ql\qnatural\pardirnatural
+
+\f1\fs22 \cf2 \CocoaLigature0 #include \cf3 <TargetConditionals.h>\cf2  \cf4 // Added by myself on 23 Dec 2010, to make Kamikaze build\cf2 \
+#include \cf3 <Availability.h>\cf2  \cf4 // Added by myself on 23 Dec 2010, to make Kamikaze build\cf2 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 \CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li240\fi-240\ql\qnatural\pardirnatural
+
+\f1\fs22 \cf0 3. In 
+\f0\fs24 OGLES2/PVRTBackground.h commented out:\
+\pard\tx560\pardeftab560\ql\qnatural\pardirnatural
+
+\f1\fs22 \cf4 \CocoaLigature0 #if defined(BUILD_OGL) || defined(BUILD_OGLES) || defined(BUILD_OGLES2)\
+...\
+//#elif defined(BUILD_DX10) // Commented out by myself on 23 Dec 2010\
+...\cf0 \
+\cf4 //		EPVRTError Draw(ID3D10ShaderResourceView *pTexture); // Commented out by myself on 23 Dec 201\cf0 \
+\cf4 //#endif // Commented out by myself on 23 Dec 201\cf0 \
+\CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li240\fi-240\ql\qnatural\pardirnatural
+\cf0 \
+}

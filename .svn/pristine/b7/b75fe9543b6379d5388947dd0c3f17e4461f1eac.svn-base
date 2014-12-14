@@ -1,0 +1,86 @@
+//
+//  GameStateController.mm
+//  Kamikaze
+//
+//  Created by Hellcat on 5/19/2011.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#include "GameStateController.h"
+
+//#import "UIMyButton.h"
+
+#include "Matrix.h"
+#include "Garage.h"
+
+#include "NameStream.h"
+
+#include "Misc.h"
+
+
+_GameStateController::_GameStateController() : _state(eStateAction), _prevState(eStateAction)
+{
+	Bundle::alloc()->init([[[NSBundle mainBundle] bundlePath] cStringUsingEncoding:NSUTF8StringEncoding]);
+	ShaderManager::alloc();
+	MatrixManager::alloc();
+
+	_client = new ActionRenderer();
+}
+
+void _GameStateController::flow()
+{
+//	printf("State: %d, prevState: %d\n", _state, _prevState);
+
+	// If previous and current states are the same, just carry on with usual client drawing
+	if (_state == _prevState)
+	{
+		// Figure out exact client and draw it
+		// TODO: Perhaps use methods pointers reference actual and draw (all derived from Renderer::)
+		_client->frame();
+/*
+		if (_state == eStateAction)
+		{
+			_client->frame();
+		}
+		else if (_state == eStateGarage)
+		{
+			_client->frame();
+//			Garage::get()->frame();
+		}
+*/
+	}
+	// State has just changed (e.g. quit main menu and start game), release previous client and load new one
+	else
+	{
+		// Figure out previous client and completely release it
+		if (_prevState == eStateAction)
+		{
+			printf("Deletion the client!\n");
+			if (_client) delete _client; _client = 0;
+		}
+		else if (_prevState == eStateGarage)
+		{
+//			Garage::release();
+		}
+
+		// Finally, identify new client and perform proper initialization (it will start drawing on the next :flow() call)
+		if (_state == eStateAction)
+		{
+//			Renderer::load(n);
+//			Renderer::startLevel(n);
+		}
+		if (_state == eStateGarage)
+		{
+			_client = new GarageRenderer();
+//			Garage::load();
+//			Garage::start();
+		}
+	}
+
+	_prevState = _state; // Remember the previous state (so we keep the short history)
+}
+
+void _GameStateController::setView(UIView * view)
+{
+//	[UIMyButton infiltrate:(this->_view = view)];
+}

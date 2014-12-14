@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+ All omitted params have their own default value, at instance:
+ 0.0 for coords-, 1.0 for scale- and 5 for count-class values
+ 
+ - For PVR textures, the .pvr extension can be omitted
+ - All sizes in scene units (meters)
+ 
+ TODO:
+ - Enhance to support reoccurring events, say ball should be drawn each 10 meters/seconds
+ 
+ Possible figures: cube, cone, sphere, cyl
+ 
+ -->
+<!-- <description name="Level_1" length="530.0"> -->
+<description name="Level_1" length="500.0">
+	
+	<background>
+		<texture name="1_1"/>
+		<texture name="2_1"/>
+		<texture name="3_1"/>
+		<texture name="4_1"/>
+		<texture name="5_1"/>
+		<texture name="6_1"/>
+		<texture name="7_1"/>
+	</background>
+	
+	<!-- Keep asc sorted by distance (or sort array) -->
+	
+	<!-- The ground is at posY = -7.0 meters -->
+	
+	<!-- First 100m free flight -->
+	
+	
+	<!-- First group, identical columns of cylinders -->
+    <set type="cyl" size="1." posX="110" posY="-6.5" tex="cylinder_color_2" count="3"/>
+	<body type="cone"	tex="cone_color_2"		size="1.0" posX="110.0" posY="-1.5"/>
+	
+    
+    
+    
+    
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="115.0" posY="-6.5"/>
+	<body type="cyl"	tex="cylinder_color_2"	size="1.0" posX="115.0" posY="-5.5"/>
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="115.0" posY="-4.5"/>
+	<body type="cyl"	tex="cylinder_color_2"	size="1.0" posX="115.0" posY="-3.5"/>
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="115.0" posY="-2.5"/>
+	<body type="cone"	tex="cone_color_1"		size="1.0" posX="115.0" posY="-1.5"/>
+	
+	<body type="cyl"	tex="cylinder_color_2"	size="1.0" posX="120.0" posY="-6.5"/>
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="120.0" posY="-5.5"/>
+	<body type="cyl"	tex="cylinder_color_2"	size="1.0" posX="120.0" posY="-4.5"/>
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="120.0" posY="-3.5"/>
+	<body type="cyl"	tex="cylinder_color_2"	size="1.0" posX="120.0" posY="-2.5"/>
+	<body type="cone"	tex="cone_color_2"		size="1.0" posX="120.0" posY="-1.5"/>
+	
+	
+	<!-- Second group, growing columns of cylinders -->
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="140.0" posY="-6.5"/>
+	<body type="cone"	tex="cone_color_2"		size="1.0" posX="140.0" posY="-5.5"/>
+	
+	<body type="cyl"	tex="cylinder_color_2"	size="1.0" posX="145.0" posY="-6.5"/>
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="145.0" posY="-5.5"/>
+	<body type="cyl"	tex="cylinder_color_2"	size="1.0" posX="145.0" posY="-4.5"/>
+	<body type="cone"	tex="cone_color_2"		size="1.0" posX="145.0" posY="-3.5"/>
+	
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="150.0" posY="-6.5"/>
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="150.0" posY="-5.5"/>
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="150.0" posY="-4.5"/>
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="150.0" posY="-3.5"/>
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="150.0" posY="-2.5"/>
+	<body type="cone"	tex="cone_color_1"		size="1.0" posX="150.0" posY="-1.5"/>
+	
+	
+	<!-- Third group, middle columns of cubes -->
+    <set type="cube" size="1." posX="200" posY="-3.5" tex="cone_color_1" count="4"/>
+	
+	<!-- Fifth group, falling objects -->
+	<body type="cone"	tex="cone_color_1"	size="1.0" posX="320.0" posY="8.0"/>
+	<body type="cone"	tex="cone_color_2"	size="1.0" posX="325.0" posY="8.0"/>
+	<body type="cone"	tex="cone_color_1"	size="1.0" posX="330.0" posY="8.0"/>
+	
+	<body type="sphere"	tex="cone_color_1"	size="1.0" posX="340.0" posY="8.0"/>
+	<body type="sphere"	tex="cone_color_2"	size="1.0" posX="345.0" posY="8.0"/>
+	<body type="sphere"	tex="cone_color_1"	size="1.0" posX="350.0" posY="8.0"/>
+	<body type="sphere"	tex="cone_color_2"	size="1.0" posX="353.0" posY="8.0"/>
+	<body type="sphere"	tex="cone_color_1"	size="1.0" posX="360.0" posY="8.0"/>	
+
+	<!-- Landing -->
+	
+</description>

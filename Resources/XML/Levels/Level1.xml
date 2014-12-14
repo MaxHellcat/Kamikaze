@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    All omitted params have their own default value; for instance:
+    0.0 for coords-, 1.0 for scale- and 5 for count-class values
+
+ - For PVR textures, the .pvr extension can be omitted
+ - All sizes in scene units (meters)
+ 
+ TODO:
+ - Enhance to support reoccurring events, say ball should be drawn each 10 meters/seconds
+
+ Possible figures: cube, cone, sphere, cyl
+
+-->
+<!-- <description name="Level_1" length="530.0"> -->
+<description name="Level_1" length="500.0">
+
+	<background>
+		<texture name="1_1"/>
+		<texture name="2_1"/>
+		<texture name="3_1"/>
+		<texture name="4_1"/>
+		<texture name="5_1"/>
+		<texture name="6_1"/>
+		<texture name="7_1"/>
+	</background>
+
+	<!-- Keep asc sorted by distance (or sort array) -->
+
+	<!-- The ground is at posY = -7.0 meters -->
+	
+	<!--
+	 cylinder_color_1 // Green and purple dots on white back
+	 cylinder_color_2 // Small cakes on yellow back
+	 cylinder_blue // Solid blue
+	 cylinder_red // Solid red
+	 cylinder_yellow // Solid yellow
+	 -->
+
+<!-- First 100m free flight -->
+
+
+<!-- First group, low columns of cylinders -->
+
+	<!-- Group posY means position of the 1st body -->
+	<!-- Each next body auto-placed properly above -->
+	<set type="cyl" size="1.5" posX="10" posY="-6.5" tex="cylinder_color_2" count="3"/>
+	<set type="cyl" size="1.5" posX="15" posY="-6.5" tex="cylinder_color_2" count="3"/>
+	<set type="cyl" size="1.5" posX="20" posY="-6.5" tex="cylinder_color_2" count="3"/>
+
+	<set type="cyl" size="1.5" posX="30" posY="-6.5" tex="cylinder_color_2" count="3">
+		<body type="cone" tex="cone_color_1"/>
+	</set>
+
+
+<!--
+	<set type="cyl" size="1.5" posX="30" posY="-6.5" tex="cylinder_color_2">
+		<body/>
+		<body/>
+		<body/>
+		<body/>
+		<body type="cone" tex="cylinder_color_1"/>
+	</set>
+
+
+
+ 	<body type="cyl"	tex="cylinder_color_1"	size="2" posX="15" posY="12"/>
+ 
+ 
+ 
+ 
+	<body type="cyl"	tex="cylinder_color_2"	size="2.0" posX="10.0" posY="-6.5"/>
+	<body type="cyl"	tex="cylinder_color_2"	size="2.0" posX="10.0" posY="-5.5"/>
+	<body type="cyl"	tex="cylinder_color_2"	size="2.0" posX="10.0" posY="-4.5"/>
+
+
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="115.0" posY="-6.5"/>
+	<body type="cyl"	tex="cylinder_color_2"	size="1.0" posX="115.0" posY="-5.5"/>
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="115.0" posY="-4.5"/>
+	<body type="cyl"	tex="cylinder_color_2"	size="1.0" posX="115.0" posY="-3.5"/>
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="115.0" posY="-2.5"/>
+	<body type="cone"	tex="cone_color_1"		size="1.0" posX="115.0" posY="-1.5"/>
+
+	<body type="cyl"	tex="cylinder_color_2"	size="1.0" posX="120.0" posY="-6.5"/>
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="120.0" posY="-5.5"/>
+	<body type="cyl"	tex="cylinder_color_2"	size="1.0" posX="120.0" posY="-4.5"/>
+	<body type="cyl"	tex="cylinder_color_1"	size="1.0" posX="120.0" posY="-3.5"/>
+	<body type="cyl"	tex="cylinder_color_2"	size="1.0" posX="120.0" posY="-2.5"/>
+	<body type="cone"	tex="cone_color_2"		size="1.0" posX="120.0" posY="-1.5"/>
+-->
+
+	<!-- Landing -->
+
+</description>

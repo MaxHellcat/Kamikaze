@@ -1,0 +1,48 @@
+//
+//  Button.h
+//  Kamikaze
+//
+//  Created by Max Reshetey on 6/29/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#ifndef BUTTON_H
+#define BUTTON_H
+
+//#import <Foundation/Foundation.h>
+
+
+class UpgradeItem;
+
+// Consider switch to UIButton instead
+@interface _Button : UIImageView
+{
+@private
+	UpgradeItem * item; // Reference to the respective upgrade items, just quick
+}
+
+@property (nonatomic, assign) UpgradeItem * item;
+
+@end
+
+////////////////////////////////////////////////////////
+
+class Button
+{
+public:
+	Button() {};
+	~Button();
+
+	Button & init(const char * imageName, float posX, float posY);
+	Button & setTag(int tag);
+	Button & setVisible(bool isVisible) { [_button setHidden: !(BOOL)isVisible]; return * this; }
+	Button & attach();
+
+	_Button * wrapped() { return _button; }
+
+private:
+	_Button * _button;
+};
+
+
+#endif
